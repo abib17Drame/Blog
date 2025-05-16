@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Thème de l'application -->
+    <style name="Theme.SimpleBlog" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Couleurs primaires -->
+        <item name="colorPrimary">@color/colorPrimaire</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaire</item>
+        <item name="colorOnPrimary">@color/colorTertiaire</item>
+        
+        <!-- Couleurs secondaires -->
+        <item name="colorSecondary">@color/colorPrimaire</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaire</item>
+        <item name="colorOnSecondary">@color/colorTertiaire</item>
+        
+        <!-- Barre de statut -->
+        <item name="android:statusBarColor">@color/colorSecondaire</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

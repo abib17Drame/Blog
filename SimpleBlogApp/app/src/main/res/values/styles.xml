@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaire</item>
+        <item name="colorPrimaryDark">@color/colorPrimaire</item>
+        <item name="colorAccent">@color/colorPrimaire</item>
+        <item name="android:statusBarColor">@color/colorSecondaire</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    
+    <!-- Style pour les titres de niveau 1 -->
+    <style name="Titre1">
+        <item name="android:textSize">45sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaire</item>
+    </style>
+    
+    <!-- Style pour les titres de niveau 2 -->
+    <style name="Titre2">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaire</item>
+    </style>
+    
+    <!-- Style pour les titres de niveau 3 -->
+    <style name="Titre3">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaire</item>
+    </style>
+    
+    <!-- Style pour les titres de niveau 4 -->
+    <style name="Titre4">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaire</item>
+    </style>
+    
+    <!-- Style pour le texte normal de type 1 -->
+    <style name="Texte1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimaire</item>
+    </style>
+    
+    <!-- Style pour le texte normal de type 2 -->
+    <style name="Texte2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimaire</item>
+    </style>
+</resources>

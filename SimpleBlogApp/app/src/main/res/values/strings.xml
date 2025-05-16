@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SimpleBlog</string>
+    
+    <!-- Titres -->
+    <string name="ajouter_un_article">Ajouter un article</string>
+    
+    <!-- Champs de formulaire -->
+    <string name="titre">Titre</string>
+    <string name="contenu">Contenu</string>
+    
+    <!-- Boutons -->
+    <string name="ajouter">AJOUTER</string>
+    <string name="retour">Retour</string>
+    <string name="fermer">Fermer</string>
+    
+    <!-- Messages -->
+    <string name="article_ajoute">Article ajouté avec succès</string>
+    <string name="erreur_ajout_article">Erreur lors de l\'ajout de l\'article</string>
+    <string name="erreur_titre_vide">Le titre ne peut pas être vide</string>
+    <string name="erreur_contenu_vide">Le contenu ne peut pas être vide</string>
+    
+    <!-- Format -->
+    <string name="ecrit_par">Écrit par %1$s</string>
+</resources>

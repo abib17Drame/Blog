@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaire"
+    android:orientation="vertical"
+    tools:context=".AjouterArticleActivity">
+
+    <!-- En-tête avec titre principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Titre SimpleBlog -->
+        <TextView
+            android:id="@+id/textTitrePrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimaire"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <!-- Titre de la page -->
+        <TextView
+            android:id="@+id/textTitrePage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/ajouter_un_article"
+            android:textColor="@color/colorPrimaire"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Formulaire d'ajout d'article -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Champ pour le titre de l'article -->
+        <EditText
+            android:id="@+id/editTitreArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/titre"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:textColor="@color/colorPrimaire"
+            android:textColorHint="@android:color/darker_gray"
+            android:elevation="4dp" />
+
+        <!-- Champ pour le contenu de l'article -->
+        <EditText
+            android:id="@+id/editContenuArticle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="top|start"
+            android:hint="@string/contenu"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:padding="16dp"
+            android:textColor="@color/colorPrimaire"
+            android:textColorHint="@android:color/darker_gray"
+            android:elevation="4dp" />
+    </LinearLayout>
+
+    <!-- Barre inférieure avec boutons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Bouton pour ajouter l'article -->
+        <Button
+            android:id="@+id/boutonAjouter"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="@string/ajouter"
+            android:textColor="@color/colorTertiaire"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Bouton pour fermer l'activité -->
+        <ImageButton
+            android:id="@+id/boutonFermer"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button_background"
+            android:contentDescription="@string/fermer"
+            android:padding="14dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="@color/colorTertiaire" />
+    </LinearLayout>
+
+</LinearLayout>
